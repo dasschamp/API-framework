@@ -1,0 +1,281 @@
+{
+    "contentId": "c1438063-1a85-489a-bfb5-24dc563d70a9",
+    "type": "multiple_choice",
+    "subType": "prompt_response",
+    "title": "Exercise",
+    "description": null,
+    "descriptionMedia": null,
+    "focus": [
+    "Vocabulary"
+    ],
+    "example": "<p>Hi there</p>\r\n",
+    "exampleMedia": null,
+    "duration": "2 Mins",
+    "canDoStatement": [
+    {
+    "code": "GLVC1707b",
+    "statement": "Can use language related to greeting, meeting, introducing, and leave-taking"
+    }
+    ],
+    "instructions": "<p><strong>Choose the right answer.​</strong></p>\r\n",
+    "instructionsMedia": null,
+    "referenceText": null,
+    "referenceTextMedia": null,
+    "created": "1429530403",
+    "skippable": false,
+    "scorable": true,
+    "retry": false,
+    "delayedFeedback": false,
+    "answerSpecificFeedback": false,
+    "doOver": true,
+    "resultType": "type2",
+    "remediationInteraction": false,
+    "contents": [
+    {
+    "questionId": "112a6a4d-9f96-4043-894a-52b2ce1f6fd7",
+    "question": "<p>How’s it going?</p>\r\n",
+    "questionMedia": null,
+    "canDoStatement": [
+    {
+    "code": "GLVC1707b",
+    "statement": "Can use language related to greeting, meeting, introducing and leave-taking"
+    }
+    ],
+    "atBelowLevel": null,
+    "remediation": null,
+    "remediationMedia": null,
+    "shuffleOptions": true,
+    "answerOptions": [
+    {
+    "id": "d320648e-576d-4f7f-b420-ea6430716003",
+    "option": "<p>Good, thanks.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": true,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "96662203-d8a2-43d5-9448-e37b64690e7e",
+    "option": "<p>Goodnight.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "cce029fa-acaa-4453-b8b4-95fae447095d",
+    "option": "<p>He’s good.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    }
+    ]
+    },
+    {
+    "questionId": "728d9d77-b292-4352-9092-fb75d55ab69e",
+    "question": "<p>Hello.</p>\r\n",
+    "questionMedia": null,
+    "canDoStatement": [
+    {
+    "code": "GLVC1707b",
+    "statement": "Can use language related to greeting, meeting, introducing, and leave-taking"
+    }
+    ],
+    "atBelowLevel": null,
+    "remediation": null,
+    "remediationMedia": null,
+    "shuffleOptions": true,
+    "answerOptions": [
+    {
+    "id": "ee2b8841-cd5a-45e7-84e9-7e62b138c97e",
+    "option": "<p>Hi there.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": true,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "17565ff6-0e4d-475d-acbd-5615c558c333",
+    "option": "<p>I’m sorry.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "8a11a303-fab1-4171-8ea2-cd21563b2104",
+    "option": "<p>Thank you.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    }
+    ]
+    },
+    {
+    "questionId": "0c11ccd7-db1d-4d72-a406-ba388c709ed8",
+    "question": "<p>How are you?</p>\r\n",
+    "questionMedia": null,
+    "canDoStatement": [
+    {
+    "code": "GLVC1707b",
+    "statement": "Can use language related to greeting, meeting, introducing, and leave-taking"
+    }
+    ],
+    "atBelowLevel": null,
+    "remediation": null,
+    "remediationMedia": null,
+    "shuffleOptions": true,
+    "answerOptions": [
+    {
+    "id": "7aacb504-2349-4095-b297-06576f3784a8",
+    "option": "<p>I’m good.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": true,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "a52dff0a-439f-49c1-b6e3-9725f566f164",
+    "option": "<p>I’m welcome.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "8255a900-bdce-4ff8-905c-a73835cbe27a",
+    "option": "<p>I’m there.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    }
+    ]
+    },
+    {
+    "questionId": "951c90f4-1e84-4394-b15e-4ef4a1b956f9",
+    "question": "<p>Good morning.</p>\r\n",
+    "questionMedia": null,
+    "canDoStatement": [
+    {
+    "code": "GLVC1707b",
+    "statement": "Can use language related to greeting, meeting, introducing, and leave-taking"
+    }
+    ],
+    "atBelowLevel": null,
+    "remediation": null,
+    "remediationMedia": null,
+    "shuffleOptions": true,
+    "answerOptions": [
+    {
+    "id": "21686d4c-5eb1-4803-b7c5-2cd1d7c9d5b1",
+    "option": "<p>Hello.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": true,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "965751df-7e37-4b30-8138-6391722c8b37",
+    "option": "<p>Goodbye.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "837697e8-3f5c-4f55-afef-85f9f3e792a5",
+    "option": "<p>And you?</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    }
+    ]
+    },
+    {
+    "questionId": "e25cf6af-c085-4176-9259-e5913d55b9df",
+    "question": "<p>Good night.</p>\r\n",
+    "questionMedia": null,
+    "canDoStatement": [
+    {
+    "code": "GLVC1707b",
+    "statement": "Can use language related to greeting, meeting, introducing, and leave-taking"
+    }
+    ],
+    "atBelowLevel": null,
+    "remediation": null,
+    "remediationMedia": null,
+    "shuffleOptions": true,
+    "answerOptions": [
+    {
+    "id": "641a69db-d3a7-4fff-b946-45cad24b5356",
+    "option": "<p>Bye.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": true,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "78aef1c7-2c51-42f6-978e-9e4b7e63da51",
+    "option": "<p>Hi.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "ee72ea58-1944-4aec-8a7a-804283d053f4",
+    "option": "<p>Hey.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    }
+    ]
+    },
+    {
+    "questionId": "239723b2-800b-4010-aece-3b142d783b02",
+    "question": "<p>Bye.</p>\r\n",
+    "questionMedia": null,
+    "canDoStatement": [
+    {
+    "code": "GLVC1707b",
+    "statement": "Can use language related to greeting, meeting, introducing, and leave-taking"
+    }
+    ],
+    "atBelowLevel": null,
+    "remediation": null,
+    "remediationMedia": null,
+    "shuffleOptions": true,
+    "answerOptions": [
+    {
+    "id": "b317e01b-a412-4cbf-b03c-5d6f65df9284",
+    "option": "<p>Goodbye.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": true,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "088b8de8-25d3-4a64-a83d-204fe9fdb49d",
+    "option": "<p>Sorry.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    },
+    {
+    "id": "aa2006ef-1619-4155-a94d-b53d548559ea",
+    "option": "<p>Hey there.</p>\r\n",
+    "optionMedia": null,
+    "isCorrect": false,
+    "feedback": null,
+    "feedbackMedia": null
+    }
+    ]
+    }
+    ]
+    }
