@@ -21,7 +21,7 @@ import com.framework.base.GenericActions;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
-import api.controller.idam.TokenCreation;
+import api.controller.module.TokenCreation;
 
 public class Annotations {
 
@@ -94,23 +94,11 @@ public class Annotations {
 
 	public static void loadEnvironment(String input) throws IOException {
 		
-		if (input == "QualChina") {
-			FileInputStream fis = new FileInputStream(configPath + "EnvFile_QualChina.properties");
-			LoadEnv.load(fis);
-		} else if (input == "StageChina") {
-			FileInputStream fis = new FileInputStream(configPath + "EnvFile_StageChina.properties");
-			LoadEnv.load(fis);
-		} else if (input == "StageRow") {
-			FileInputStream fis = new FileInputStream(configPath + "EnvFile_StageRow.properties");
-			LoadEnv.load(fis);
-		} else if (input == "ProdChina") {
-			FileInputStream fis = new FileInputStream(configPath + "EnvFile_ProdChina.properties");
-			LoadEnv.load(fis);
-		} else if (input == "ProdRow") {
-			FileInputStream fis = new FileInputStream(configPath + "EnvFile_ProdRow.properties");
+		if (input == "test") {
+			FileInputStream fis = new FileInputStream(configPath + "EnvFile_Test.properties");
 			LoadEnv.load(fis);
 		} else {
-			FileInputStream fis = new FileInputStream(configPath + "EnvFile_QualRow.properties");
+			FileInputStream fis = new FileInputStream(configPath + "EnvFile_Stage.properties");
 			LoadEnv.load(fis);
 		}
 		

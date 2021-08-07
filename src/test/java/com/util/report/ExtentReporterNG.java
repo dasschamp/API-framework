@@ -1,5 +1,5 @@
 
-package com.util.reporting;
+package com.util.report;
 
 import java.io.File;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package api.controller.idam;
+package api.controller.module;
 
 import static io.restassured.RestAssured.given;
 

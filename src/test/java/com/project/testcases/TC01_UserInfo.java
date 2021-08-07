@@ -1,4 +1,4 @@
-package wse.idam.testcases;
+package com.project.testcases;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 
 import com.framework.base.GenericActions;
 
-import api.controller.idam.TokenCreation;
-import api.controller.idam.UserInfo;
+import api.controller.module.TokenCreation;
+import api.controller.module.UserInfo;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 

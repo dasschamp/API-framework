@@ -1,4 +1,4 @@
-package api.controller.idam;
+package api.controller.module;
 
 import static io.restassured.RestAssured.given;
 
@@ -14,16 +14,17 @@ import com.framework.base.GenericActions;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class UniqueEmail extends GenericActions {
+public class ResetPassword extends GenericActions {
 	
-public static Response getIsUniqueEmail(String access_Token,String email) throws IOException{
+public static Response postResetPassword(String access_Token,String username,String password) throws IOException{
 		Map<String,String> json = new HashMap<>();
-		json.put("email", email);
+		json.put("UserName", username);
+		json.put("NewPassword", password);
 		RestAssured.baseURI = LoadEnv.getProperty("IDAM");
 		response = given().header("authorization", "Bearer " + access_Token)
 				.contentType("application/json")
 				.when().body(json)
-				.post("user/IsUniqueEmail");
+				.post("user/resetpassword");
 		
 		return response;
 		

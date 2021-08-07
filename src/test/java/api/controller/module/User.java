@@ -1,4 +1,4 @@
-package api.controller.idam;
+package api.controller.module;
 
 import java.io.IOException;
 import java.util.Map;
